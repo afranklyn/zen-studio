@@ -17,6 +17,10 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width:100%;
+}
+
 /* TEMP STYLES */
 
 * {
@@ -47,12 +51,16 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 .padded     {padding: 5%;}
 .padded-lg  {padding: 10%;}
-.padded-1   {padding: 1rem;}
-.padded-2   {padding: 2rem;}
+
+.padded-1,
+.grid.padded-1   {padding: 1rem;}
+
+.padded-2,
+.grid.padded-2   {padding: 2rem;}
 
 .margin-b-0 {margin-bottom: 0;}
 
-.bg-featured {background-color: #018ca2; }
+.bg-light    {background-color: #F8F6F4; }
 .bg-dark     {background-color: #24282B; }
 
 .light-text  {color: white;}
@@ -63,6 +71,40 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 /* GENERAL TYPOGRAPHY AND UNIVERSAL STYLES */
 
+body {
+    font-family: 'Baskerville', serif;
+    color: rgb(65,60,60);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Didot', serif;
+}
+
 /* HEADER AND FOOTER STYLES */
 
 /* IMAGES AND BACKGROUND IMAGE STYLE */
+
+.bg-image {
+    background-color: #24282B;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/images/zen-studio-leaves-dark.jpg');
+}
+
+.bg-leaves-dark {
+    background-image: url(/images/zen-studio-leaves-dark.jpg)
+}
+
+.bg-map {
+    background-image: url(/images/zen-studio-map.png)
+}
+
+.bg-stone {
+        background-image: url(/images/zen-studio-stone.png)
+}
+
+.bg-studio {
+    background-image: url(/images/zen-studio.jpg)
+}
+
