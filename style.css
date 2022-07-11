@@ -3,7 +3,7 @@
 - fonts:
     - Didot - Regular (headings)
     - Baskerville - Regular (small text)
-    - Proxima Nova - Medium
+    - Lato - Medium
 - Colors:
     - beige - F8F6F4
     - pink - FFA995
@@ -23,7 +23,7 @@ img {
 
 /* TEMP STYLES */
 
-* {
+/* * {
     padding: 0.5rem;
     border: 1px solid rgb(220, 220, 220)
 }
@@ -35,7 +35,7 @@ body {
 
 h1, h2, h3, h4, h5, h6, p, a {
     border: 1px solid rgb(179, 84, 84)
-}
+} */
 
 
 /* END TEMP STYLES */
@@ -78,7 +78,35 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Didot', serif;
+    line-height: 1;
+    margin-bottom: 1rem;
+    color: #FFA995;
+    font-weight: normal;
 }
+
+h1 {font-size: 3rem;}
+h2 {font-size: 2.5rem;}
+h3 {font-size: 2rem;}
+
+p {
+    line-height: 1.4;
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+}
+
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child,
+p:last-child {
+    margin-bottom: 0;
+}
+
+h1 {font-size: 8rem;}
+
+
 
 /* HEADER AND FOOTER STYLES */
 
