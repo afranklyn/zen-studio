@@ -6,7 +6,7 @@
     - Lato - Medium
 - Colors:
     - beige - F8F6F4
-    - pink - FFA995
+    - pink - f59186
 - Map: [https://snazzymaps.com/style/115413/light-and-beige](https://snazzymaps.com/style/115413/light-and-beige)
 
 */
@@ -61,13 +61,14 @@ h1, h2, h3, h4, h5, h6, p, a {
 .margin-b-0 {margin-bottom: 0;}
 
 .bg-light    {background-color: #F8F6F4; }
-.bg-dark     {background-color: #24282B; }
 
-.light-text  {color: white;}
+.text-featured {color: #f59186;}
 
 .left        {text-align: left;}
 .center      {text-align: center;}
 .right       {text-align: right;}
+
+
 
 /* GENERAL TYPOGRAPHY AND UNIVERSAL STYLES */
 
@@ -80,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Didot', serif;
     line-height: 1;
     margin-bottom: 1rem;
-    color: #FFA995;
+    /* color: #FFA995; */
     font-weight: normal;
 }
 
@@ -94,6 +95,15 @@ p {
     margin-bottom: 0.8rem;
 }
 
+ul {
+    margin-left: 1rem;
+}
+
+li {
+    padding-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
 h1:last-child,
 h2:last-child,
 h3:last-child,
@@ -104,11 +114,46 @@ p:last-child {
     margin-bottom: 0;
 }
 
-h1 {font-size: 8rem;}
+a {
+    color: inherit;
+    text-decoration: none;
+}
 
 
+
+.text-lg {font-size: 3.5rem;}
+.text-xl {font-size: 4.5rem;}
+.text-xxl {font-size: 15vw;}
+
+.text-lato {
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+    color:#ea6c5e;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.button {
+    color: inherit;
+    border: 1px solid #f59186;
+    text-decoration: none;
+    border-radius: 2rem;
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+}
+
+a:hover {
+    color: rgb(65,60,60);
+    border: 1px solid rgb(65,60,60);
+}
 
 /* HEADER AND FOOTER STYLES */
+
+footer {
+    padding-bottom: 1rem;
+}
 
 /* IMAGES AND BACKGROUND IMAGE STYLE */
 
@@ -136,3 +181,10 @@ h1 {font-size: 8rem;}
     background-image: url(/images/zen-studio.jpg)
 }
 
+.shape-teardrop {
+    border-radius: 20rem 20rem 0rem 20rem;
+}
+
+.shape-window {
+    border-radius: 20rem 20rem 0rem 0rem;
+}
