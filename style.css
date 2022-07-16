@@ -165,7 +165,7 @@ footer {
     background-image: url('/images/zen-studio-leaves-dark.jpg');
 }
 
-.bg-leaves-dark {
+.bg-leaves {
     background-image: url(/images/zen-studio-leaves-dark.jpg)
 }
 
@@ -188,3 +188,52 @@ footer {
 .shape-window {
     border-radius: 20rem 20rem 0rem 0rem;
 }
+
+
+/* ------- MD Media Query (64em / 1024px) --------------- */ 
+/* MD media query - will activate at all devices less than 1024px/64em  - we use ems as that is what gridlex uses */
+
+/* @media(max-width:64em) {
+    .show-md {display: block;}
+    .hide-md {display: none;}
+  } */
+  
+  /* ------- SM Media Query (48em / 768px) --------------- */ 
+  /* SM media query - will activate at all devices less than 768px/48em  - we use ems as that is what gridlex uses */
+  
+  @media(max-width:48em) {
+
+    .sm-block {display:block;}
+    .text-xl {font-size: 3.5rem;
+    }
+    .bg-leaves {
+        background-image: url(/images/zen-studio-leaves-light.png)
+    }
+
+    /* .show-sm {display: block;}
+    .hide-sm {display: none;} */
+  }
+  
+  /* ------- XS Media Query (36em / 576px) --------------- */ 
+  /* XS media query - will activate at all devices less than 576px/36em  - we use ems as that is what gridlex uses */
+  
+  @media(max-width:36em) {
+
+    .text-lg {font-size: 2.5rem;
+    }
+    .text-xl {font-size: 2.5rem;
+    }
+    /* .show-xs {display: block;}
+    .hide-xs {display: none;} */
+  }
+
+    /* ------- XXS Media Query (22em / 350px) --------------- */ 
+  /* XXS media query - will activate at all devices less than 350px/22em  - we use ems as that is what gridlex uses */
+  
+  /* @media(max-width:22em) {
+    .show-xxs {display: block;}
+    .hide-xxs {display: none;}
+  } */
+  
+  
+  
